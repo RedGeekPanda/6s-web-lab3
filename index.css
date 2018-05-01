@@ -1,0 +1,34 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.wander-container {
+    min-width: 62vh;
+    width: 62vw;
+    max-width: 87vh;
+    height: 100vh;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 16px 16px #bbc;
+}
+
+.wander-container form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 240px;
+}
+
+.wander-container form input {
+    display: block;
+    margin: 5px;
+}
+
+.wander-container canvas {
+    width: 100%;
+    height: 100%;
+}
